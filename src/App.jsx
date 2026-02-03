@@ -1,9 +1,10 @@
 import Table from "./component/Table"
+import './Style.css'
 
 function App() {
 
   return (
-  <div>
+  <div className="p-6">
     <Table/>
   </div>
   )
