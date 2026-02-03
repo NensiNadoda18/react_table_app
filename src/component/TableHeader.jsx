@@ -5,7 +5,7 @@ const TableHeader = () => {
   const { sortOrder, toggleSort } = useTable();
 
   return (
-    <thead className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
+    <thead className="bg-gradient-to-r from-indigo-500 to-indigo-900 text-white">
       <tr>
         <th
           onClick={toggleSort}
